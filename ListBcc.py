@@ -163,7 +163,7 @@ def sign(credentials, http_method, path, headers, params,
 
 if __name__ == "__main__":
     # 填写AK SK
-    credentials = BceCredentials("ac72fa3fe9074459ac8427d387847482", "0436b0a108294917ac41d52db6c6b649")
+    credentials = BceCredentials("AK", "SK")
     # API接口的请求方法
     http_method = "GET"
     # 接口请求路径
