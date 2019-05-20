@@ -173,7 +173,7 @@ def clientToken():# 幂等性函数
 
 if __name__ == "__main__":
     # 填写AK SK
-    credentials = BceCredentials("d2d693ed6ad848da8fe5aacfdb680217", "ced21ac953c74e15b68a940cd4ba531c")
+    credentials = BceCredentials("AK", "SK")
     # API接口的请求方法
     http_method = "POST"
     # 接口请求路径
